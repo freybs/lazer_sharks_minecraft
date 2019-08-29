@@ -10,21 +10,23 @@ Set up a local Git repo:
 ( 5) Navigate to folder
 ( 6) Right-click, select "Open Git Bash here" (or similar)
 ( 7) type "git init". ENTER.
-( 8) type "git remote add origin https://github.com/freybs/lazer_sharks_minecraft.git". ENTER.
-( 9) type "git pull origin master". ENTER.
-(10) You may now close Git Bash if you wish. May help to leave it on for later.
-(11) Download Minecraft server ("server.jar") into this directory (DO NOT RUN SERVER YET AT THIS STEP)
-(12) Copy "nick_startup.bat" and rename it "<name>_startup.bat"
-(13) Edit "<name>_startup.bat" in notepad or equivalent...
-(14) Change the first line of the .bat file to the drive letter in which this server resides (e.g. C: or F: etc.)
-(15) Change the second line of the .bat file to "cd <rest of the folder path>". DO NOT include the drive letter in this path.
-(16) Save and close the .bat file.
-(17) type "git add <name>_startup.bat". ENTER.
-(18) type "git commit -m 'adding <name>s bat file'". ENTER.
-(19) type "git push". ENTER.
+( 8) type "git config --global user.email '<email used to sign up for GitHub>'
+( 9) type "git config --global user.name '<your name>'
+(10) type "git remote add origin https://github.com/freybs/lazer_sharks_minecraft.git". ENTER.
+(11) type "git pull origin master". ENTER.
+(12) You may now close Git Bash if you wish. May help to leave it on for later.
+(13) Download Minecraft server ("server.jar") into this directory (DO NOT RUN SERVER YET AT THIS STEP)
+(14) Copy "nick_startup.bat" and rename it "<name>_startup.bat"
+(15) Edit "<name>_startup.bat" in notepad or equivalent...
+(16) Change the first line of the .bat file to the drive letter in which this server resides (e.g. C: or F: etc.)
+(17) Change the second line of the .bat file to "cd <rest of the folder path>". DO NOT include the drive letter in this path.
+(18) Save and close the .bat file.
+(19) type "git add <name>_startup.bat". ENTER.
+(20) type "git commit -m 'adding <name>s bat file'". ENTER.
+(21) type "git push". ENTER.
 	NOTE: You may need to type "git push --set-upstream origin master" the first time.
-(20) [Optional] Create a shortcut to this .bat file from your desktop. That's fine.
-(21) Run the .bat file by either double clicking on it OR double-clicking the shortcut. The server should now be running :)
+(22) [Optional] Create a shortcut to this .bat file from your desktop. That's fine.
+(23) Run the .bat file by either double clicking on it OR double-clicking the shortcut. The server should now be running :)
 
 Upload changes into remote Git repo:
 ( 1) Ensure the server is NO LONGER RUNNING. You may either just click "X" or type "/stop" into the server console.
