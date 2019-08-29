@@ -4,8 +4,8 @@ How to...
 
 Set up a local Git repo:
 ( 1) Create GitHub account
-( 2) Request access to remote git repo
-( 3) Download Git Bash
+( 2) Request access to remote git repo. Message Nick, send him your GitHub username.
+( 3) Download Git Bash. Install. Just go with all the default settings/selections.
 ( 4) Create directory (folder) which will hold server files
 ( 5) Navigate to folder
 ( 6) Right-click, select "Open Git Bash here" (or similar)
