@@ -5,7 +5,7 @@ How to...
 Set up a local Git repo:
 ( 1) Create GitHub account
 ( 2) Request access to remote git repo. Message Nick, send him your GitHub username.
-( 3) Download Git Bash. Install. Just go with all the default settings/selections.
+( 3) Download Git Bash. Install. Just go with all the default settings/selections during installation.
 ( 4) Create directory (folder) which will hold server files
 ( 5) Navigate to folder
 ( 6) Right-click, select "Open Git Bash here" (or similar)
@@ -17,16 +17,20 @@ Set up a local Git repo:
 (12) Copy "nick_startup.bat" and rename it "<name>_startup.bat"
 (13) Edit "<name>_startup.bat" in notepad or equivalent...
 (14) Change the first line of the .bat file to the drive letter in which this server resides (e.g. C: or F: etc.)
-(15) Change the second line of the .bat file to the rest of the folder path. DO NOT include the drive letter in this path.
+(15) Change the second line of the .bat file to "cd <rest of the folder path>". DO NOT include the drive letter in this path.
 (16) Save and close the .bat file.
-(17) [Optional] Create a shortcut to this .bat file from your desktop. That's fine.
-(18) Run the .bat file by either double clicking on it OR double-clicking the shortcut. The server should now be running :)
+(17) type "git add <name>_startup.bat". ENTER.
+(18) type "git commit -m 'adding <name>s bat file'". ENTER.
+(19) type "git push". ENTER.
+	NOTE: You may need to type "git push --set-upstream origin master" the first time.
+(20) [Optional] Create a shortcut to this .bat file from your desktop. That's fine.
+(21) Run the .bat file by either double clicking on it OR double-clicking the shortcut. The server should now be running :)
 
 Upload changes into remote Git repo:
 ( 1) Ensure the server is NO LONGER RUNNING. You may either just click "X" or type "/stop" into the server console.
 ( 2) Open Git Bash in your server's directory (see steps [5-6] under "Set up a local Git repo")
 ( 3) type "git add -A". ENTER.
-( 4) type "git commit -m <insert message here>". ENTER.
+( 4) type "git commit -m '<insert message here>'". ENTER.
 	NOTE: Please make the message meaningful like "Nick 08/28/2019" or "Frank just found a shit ton of diamonds but might die".
 ( 5) type "git push". ENTER.
 	NOTE: You may need to type "git push --set-upstream origin master" the first time.
