@@ -10,7 +10,7 @@ Set up a local Git repo:
 ( 5) Navigate to folder
 ( 6) Right-click, select "Open Git Bash here" (or similar)
 ( 7) type "git init". ENTER.
-( 8) type "git remote add origin https://github.com/freybs/lazer_sharks_minecraft.git". ENMT
+( 8) type "git remote add origin https://github.com/freybs/lazer_sharks_minecraft.git". ENTER.
 ( 9) type "git pull origin master". ENTER.
 (10) You may now close Git Bash if you wish. May help to leave it on for later.
 (11) Download Minecraft server ("server.jar") into this directory (DO NOT RUN SERVER YET AT THIS STEP)
