@@ -89,6 +89,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2019-09-29 00:07:46 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_sand": "2019-06-26 22:34:31 -0700"
@@ -122,6 +128,12 @@
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2019-06-26 22:34:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2019-09-29 00:07:46 -0700"
     },
     "done": true
   },
@@ -200,6 +212,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2019-06-24 13:52:16 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2019-09-29 00:07:46 -0700"
     },
     "done": true
   },
@@ -320,6 +338,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2019-06-24 13:57:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2019-09-29 00:05:30 -0700"
     },
     "done": true
   },
@@ -598,6 +622,7 @@
       "minecraft:pillager": "2019-07-15 23:49:27 -0700",
       "minecraft:skeleton": "2019-06-25 22:35:14 -0700",
       "minecraft:zombie_pigman": "2019-06-25 22:44:37 -0700",
+      "minecraft:ravager": "2019-09-29 00:01:28 -0700",
       "minecraft:vindicator": "2019-08-22 22:51:05 -0700",
       "minecraft:spider": "2019-06-29 16:00:05 -0700",
       "minecraft:creeper": "2019-07-15 23:42:33 -0700",
@@ -953,6 +978,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2019-09-29 00:05:30 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_log": "2019-06-24 13:18:43 -0700"
@@ -986,6 +1017,12 @@
   "minecraft:recipes/building_blocks/sea_lantern": {
     "criteria": {
       "has_prismarine_crystals": "2019-08-21 22:49:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2019-09-29 00:05:30 -0700"
     },
     "done": true
   },
@@ -1064,6 +1101,12 @@
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
       "has_white_wool": "2019-06-26 22:34:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2019-09-29 00:07:46 -0700"
     },
     "done": true
   },
@@ -1168,6 +1211,7 @@
       "minecraft:taiga_hills": "2019-08-17 16:56:34 -0700",
       "minecraft:desert": "2019-07-15 22:44:15 -0700",
       "minecraft:birch_forest": "2019-08-17 16:54:46 -0700",
+      "minecraft:deep_lukewarm_ocean": "2019-09-29 00:03:17 -0700",
       "minecraft:savanna_plateau": "2019-08-21 23:39:44 -0700",
       "minecraft:beach": "2019-07-15 23:35:55 -0700",
       "minecraft:dark_forest": "2019-07-15 22:38:47 -0700",
@@ -2109,6 +2153,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2019-09-29 00:07:46 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2019-06-26 21:47:50 -0700"
@@ -2184,6 +2234,12 @@
   "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2019-06-29 16:49:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2019-09-29 00:07:46 -0700"
     },
     "done": true
   },
@@ -2304,6 +2360,12 @@
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2019-06-26 22:34:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_spruce_planks": "2019-09-29 00:07:46 -0700"
     },
     "done": true
   },
@@ -2472,6 +2534,12 @@
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2019-06-29 16:49:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2019-09-29 00:07:46 -0700"
     },
     "done": true
   },
@@ -2667,6 +2735,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_iron_nugget": "2019-09-29 00:07:36 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2019-06-24 13:21:21 -0700"
@@ -2784,6 +2858,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2019-06-24 13:52:16 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2019-09-29 00:07:46 -0700"
     },
     "done": true
   },
